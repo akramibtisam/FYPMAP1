@@ -14,7 +14,8 @@ import MapData from "./Components/MapData";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <MapData/>
+      {/* <Router>
         <Switch>
           <Route exact path="/">
             <SignIn />
@@ -45,7 +46,7 @@ function App() {
             <MapData/>
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }
