@@ -13,6 +13,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaWJ0aXNhbWFrcmFtIiwiYSI6ImNrdWw0a3c4cDFkd2syd
 function Map() {
     // const history=useHistory();
     useEffect(() => {
+
+        document.getElementById('map').style.display = 'block';
+        document.getElementById('map').style.width = '100vw';
+        document.getElementById('map').style.height = '100vh';
        
         mapboxgl.accessToken = 'pk.eyJ1IjoiaWJ0aXNhbWFrcmFtIiwiYSI6ImNrdWw0a3c4cDFkd2syd242NmU5ZTBrbm8ifQ.wGDoEac8gbktn1oYzxhhWQ';
         const map = new mapboxgl.Map({
@@ -355,7 +359,6 @@ function Map() {
                 // .setDOMContent(div)
                
                 .addTo(map);
-            document.getElementById('map').style.display = 'block';
         }
 
 

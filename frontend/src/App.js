@@ -10,12 +10,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Map from "./Components/Map";
 import Area_guide from "./Components/Area_guide";
 import MapData from "./Components/MapData";
+import Area_details from "./Components/Area_details";
 
 function App() {
   return (
     <div className="App">
-      <MapData/>
-      {/* <Router>
+      <Router>
         <Switch>
           <Route exact path="/">
             <SignIn />
@@ -42,11 +42,14 @@ function App() {
           <Route path="/areaguides">
             <Area_guide />
           </Route>
+          <Route path='/area_detail'>
+            <Area_details/>
+          </Route>
           <Route path="/mapdata">
             <MapData/>
           </Route>
         </Switch>
-      </Router> */}
+      </Router>
     </div>
   );
 }

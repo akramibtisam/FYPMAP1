@@ -19,7 +19,7 @@ function Call() {
                 </div>
                 <div className='form_text'>
                     <label>Message</label><br />
-                    <textarea rows="4" cols="27"id='input3' />
+                    <textarea rows="4" cols="33"id='input3' />
                 </div>
                 <p className='option_para'>I am a:</p>
                 <div className='form_option'>
