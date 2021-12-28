@@ -1,6 +1,7 @@
 import React from 'react'
 import {useLocation} from 'react-router-dom';
 import data from '../Area_detail.json'
+import '../Style/Area_details.css'
 
 function Area_details(props) {
   const {search} =useLocation();
