@@ -51,14 +51,14 @@
     margin-top: 10px;
 }
 .ibfield_button>button{
-    width: 30%;
+    width: 50%;
     outline: none;
     background-color: #5CA1FF;
     border-radius: 22px;
     color: white;
     border: none;
     padding: 5px;
-    margin-right: 10xp;
+    margin: auto;
 }
 .ibfield_button>button:hover{
     background:#2F78FF;
@@ -91,7 +91,8 @@
     font-family: Playfair Display;
     margin-bottom: 0px;
     margin-top: 35px;
-    color: white;
+    color: black;
+    margin-left: 15px;
 }
 .ibsignup-history{
     /* margin-bottom: 0px; */
